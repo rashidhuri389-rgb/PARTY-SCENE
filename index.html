@@ -287,5 +287,15 @@
       }
     });
   </script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script>
+  const SUPABASE_URL = "https://yavpzvtbknhrrugieoxe.supabase.co/rest/v1/";
+  const SUPABASE_KEY = "sb_publishable_hi_xUw7fdoxEY0EhtQOUqg_9oWB0dG3";
+
+  const supabaseClient = window.supabase.createClient(
+    SUPABASE_URL,
+    SUPABASE_KEY
+  );
+</script>
 </body>
 </html>
